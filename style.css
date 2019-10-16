@@ -12,7 +12,7 @@
   
   /*Box Effekte für Einträge*/
   .box {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.918);
     padding: 20px;
     margin-top: 20px;
   }
@@ -20,6 +20,10 @@
     content: "";
     display: table;
     clear: both;
+  }
+
+  .jumbotron{
+    background-color: azure;
   }
   
   
