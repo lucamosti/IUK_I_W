@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Sortieren</title>
+</head>
+<body>
+	<h1>Zahlen Sortieren</h1>
+	<p>Eingebene Zahlen sortieren:  <button onclick="sort()">Sortieren</button></p>
+	<p id="return"></p>
+	<script>  
+		var zahl1 = prompt("Erste Zahl: ");
+		var zahl2 = prompt("Zweite Zahl: ");
+		var zahl3 = prompt("Dritte Zahl: ")
+		var zahlen = [zahl1, zahl2, zahl3]
+		document.getElementById("return").innerHTML = zahlen;
+
+		function sort(zahl1, zahl2, zahl3){
+			zahlen.sort(function(a, b){return b - a});
+			document.getElementById("return").innerHTML = zahlen;
+		}
+
+	</script>
+</body>
+</html>
